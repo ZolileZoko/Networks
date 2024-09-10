@@ -2,7 +2,7 @@ import socket
 
 # Server IP and port number
 serverIP = '127.0.0.1'  # or the server's IP for remote use
-port = 54321  # Replace '12345' with your desired port number
+port = 54321  # Replace '54321' with your desired port number
 
 # Create a UDP socket
 serverSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
